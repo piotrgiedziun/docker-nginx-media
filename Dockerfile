@@ -2,6 +2,8 @@ FROM nginx:1.10.3
 
 MAINTAINER Piotr Giedziun "piotrgiedziun@gmail.com"
 
+ENV LANG C.UTF-8
+
 COPY default.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80 443
