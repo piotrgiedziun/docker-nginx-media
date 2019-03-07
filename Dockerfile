@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:alpine
 MAINTAINER Piotr Giedziun "piotrgiedziun@gmail.com"
 
 ENV LANG C.UTF-8
