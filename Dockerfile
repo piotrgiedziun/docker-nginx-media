@@ -1,5 +1,4 @@
-FROM nginx:1.10.3
-
+FROM nginx:latest
 MAINTAINER Piotr Giedziun "piotrgiedziun@gmail.com"
 
 ENV LANG C.UTF-8
